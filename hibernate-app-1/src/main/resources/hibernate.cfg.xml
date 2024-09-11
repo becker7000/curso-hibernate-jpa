@@ -22,9 +22,11 @@
         <!-- Asegúrate de agregar tus clases de entidad aquí -->
         <!-- Ejemplo: -->
         <mapping class="com.cst.hibernate.app.model.Usuario"/>
+        <mapping class="com.cst.hibernate.app.model.Autor" />
+        <mapping class="com.cst.hibernate.app.model.Editorial"/>
+        <mapping class="com.cst.hibernate.app.model.Libro" />
         <!-- Archivo de mapeo XML -->
         <mapping resource="/Producto.hbm.xml"/>
-
 
     </session-factory>
 
